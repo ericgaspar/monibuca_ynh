@@ -44,6 +44,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
+        in_subdir = false
+        extract = true
         url = "https://github.com/langhuihui/monibuca/releases/download/v4.7.1-beta11031413/m7s_4.7.1-beta11031413_linux_amd64.tar.gz"
         sha256 = "a123f0c966ee740ea2b6419580bafead36f2d0f6ded21c18c30b930d6e9f0aab"
 
